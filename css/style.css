@@ -1,0 +1,241 @@
+/*
+Theme Name: TEDx Nashville
+Author: Snapshot Interactive
+Description: Custom Theme.
+*/
+
+:link,:visited{text-decoration:none}
+ul,ol{list-style:none}
+h1,h2,h3,h4,h5,h6,pre,code{font-size:1em}
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0;padding:0}
+a img,:link img,:visited img{border:none}
+address{font-style:normal}
+
+
+
+ul.terms {
+	width:100%;
+	float:left;
+	margin:0 0 30px 0;
+	padding:0;	
+	
+}
+.terms li {
+	list-style:disc;
+	padding:5px 0 5px 5px;	
+	float:left;
+	margin:0 0 0 30px;
+	
+}
+.cleft {
+	float:left;
+	width:49% !important;
+	margin:0;
+	padding:0;
+	z-index:2;
+	position:relative;
+}
+.cright {
+	float:right;
+	width:49% !important;
+	margin:0;
+	padding:0;	
+	z-index:2;
+	position:relative;
+}
+span.wpcf7-list-item {
+    margin-left: 0em;
+}
+.ccleft { float:left; width:40%; border-right:1px solid #e8e8e8; background:#e8e8e8; padding:10px 10px; }
+.ccright { float:right; width:59%; }
+.presale {
+	margin-top:100px;	
+}
+.close-presale {
+	position:absolute;
+	top:-15px;
+	left:20px;
+	font-weight:bold;
+	font-size:102px;	
+}
+#presale .form {
+	background:none !important;	
+}
+#presale {
+z-index:9999999999;	
+}
+.elogo {
+	width:100%;
+	text-align:center;	
+}
+.elogo img {
+	width:70%;
+	height:auto;	
+}
+
+.clear
+{
+ clear: both;
+}
+/* =Structure
+-------------------------------------------------------------- */
+
+#container 
+{
+	width: 970px;
+	margin: 0 auto;
+}
+#content a
+{
+	
+}
+#content a:hover
+{
+	text-decoration: underline;
+	color: #cf790b;
+}
+#content h1
+{
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 8px;
+}
+#content h2
+{
+	font-size: 21px;
+	margin-top: 8px;
+}
+#content h3
+{
+	font-size: 14px;
+	color: #8d8d8e;
+}
+#content p
+{
+	margin: 10px 0;
+	line-height: 18px;
+}
+#content ul,
+#content ol
+{
+	margin: 10px 0;
+}
+#content ul li,
+#content ol li
+{
+	margin: 3px 30px;
+}
+#content ul li
+{
+	list-style: disc;
+}
+#content ol li
+{
+	list-style-type: decimal;
+}
+
+
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+}
+.alignright {
+	display: inline;
+	float: right;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* =Header
+-------------------------------------------------------------- */
+/* =Menu
+-------------------------------------------------------------- */
+
+
+/* =Content
+-------------------------------------------------------------- */
+
+.entry-meta {
+	clear: both;
+	display: block;
+}
+.single-author .entry-meta .byline {
+	display: none;
+}
+#content nav {
+	display: block;
+	overflow: hidden;
+}
+#content nav .nav-previous {
+	float: left;
+	width: 50%;
+}
+#content nav .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+#content #nav-above {
+	display: none;
+}
+.paged #content #nav-above,
+.single #content #nav-above {
+	display: block;
+}
+#nav-below {
+	margin: 1em 0 0;
+}
+.page-link {
+	clear: both;
+	margin: 0 0 1em;
+}
+.page .edit-link {
+	clear: both;
+	display: block;
+}
+
+/* 404 page */
+.error404 .widget {
+	float: left;
+	width: 33%;
+}
+.error404 .widget .widgettitle,
+.error404 .widget ul {
+	margin-right: 1em;
+}
+.error404 .widget_tag_cloud {
+	clear: both;
+	float: none;
+	width: 100%;
+}
+
+/* Notices */
+.post .notice,
+.error404 #searchform {
+	background: #eee;
+	display: block;
+	padding: 1em;
+}
+
+
+/* =Images
+-------------------------------------------------------------- */
+
+
+
+/* =Forms
+-------------------------------------------------------------- */
+
+
+/* =Widgets
+-------------------------------------------------------------- */
+
+/* =Footer
+-------------------------------------------------------------- */
+
